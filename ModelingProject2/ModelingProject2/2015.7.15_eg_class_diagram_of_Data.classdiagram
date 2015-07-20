@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="36074038-c8e6-4677-896b-83829167c6aa" name="UMLClassDiagram1" linkedPackageId="7a9c70cb-9823-4f68-ac26-0890e687ff5f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="58404d7f-d2ff-46b0-98bd-5741c1c5137f" name="Data" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d4ef2dde-f231-41ca-8574-b68bc26b2ab0" />
+        <ownedAttributesInternal>
+          <property Id="5bd7e1bf-2759-4318-8401-04d75e1385d3" name="day int" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4a8851e1-54d9-4dad-8034-a50dff230fa4" />
+          </property>
+          <property Id="f2369e99-6fb8-4a81-af06-a814cbb20335" name="month int" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5bffa66c-743c-43e9-be7a-77823ec5be24" />
+          </property>
+          <property Id="da14dd9b-9c50-4a5e-bedf-bb354365ef2e" name="year int" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ebba01c2-e9c1-483c-8cb5-46ba12ef47c8" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="395245c7-94fd-478f-bcb9-b9519bbc5f7d" name="new_day" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8ecf6307-1098-498d-a819-3463c7747bf4" />
+          </operation>
+          <operation Id="a07d5f0d-73b2-4c9e-be6d-dfe55624eba6" name="set_day" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="97f5fdb0-f606-486b-9e8b-9ec33f4502a9" />
+          </operation>
+          <operation Id="bb4ac97c-f997-4b2f-b67b-2ae0795160b2" name="disp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b23a4cf7-bcc2-45fc-b649-f5fe24c5c4ce" />
+          </operation>
+          <operation Id="e7ecf8d7-8f9d-4ec4-8aae-6aba6beb8143" name="Data" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a907cdae-fe38-4d33-b7db-3249432e0054" />
+          </operation>
+          <operation Id="51279d55-baad-42b8-89b9-0004c76d9f7f" name="checkData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d11438f5-a1f7-4da8-841b-67dc847ffe99" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="7a9c70cb-9823-4f68-ac26-0890e687ff5f" name="ModelingProject2">
+    <elementDefinition Id="d2baedc0-d07c-4919-bd5d-0ee61bf29169" />
+    <profileInstances>
+      <packageHasProfileInstances Id="bfcdf6be-db24-4db0-8209-d55b363df2cc">
+        <profileInstance Id="e37263f0-a9d6-4a2e-b507-7c68de24d5ed" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="941fdc93-329a-432b-9204-d096e9a91089">
+        <profileInstance Id="87da6962-56a6-49e1-b67c-7c5b38adf5ee" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1a562559-49c6-49fd-9cfd-cf23b3336de4" name="UMLClassDiagram1" linkedPackageId="88211515-0f6e-4991-bc30-db7e6852e652" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="eac60dc9-fbb3-4b52-811d-81640898c603">
+      <profileInstance Id="638f36f2-142a-4b55-bed8-05b071ef9083" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="bc7e3703-e295-44ee-9251-661986eb901d">
+      <profileInstance Id="fc2ef300-9597-493b-b243-f15533e41253" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="228b201e-a562-4cf8-a17b-a68006e309ea" name="Stack" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="78f3521d-8245-40ea-aacd-536d604199b8" />
+        <suppliersInternal>
+          <dependency Id="6d7da0d8-0899-446b-ae8e-6127e77b79f3">
+            <classMoniker Id="deb9fb02-af05-4517-8251-856065e34a4a" LastKnownName="Node" />
+            <elementDefinition Id="b84d44f5-5bd4-4037-8d72-9c98d9ba645b" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="162e5393-cdc9-4abd-b62e-6411492e068a" name="Node* head" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b5227d30-0310-4c7d-af09-898536f7e72f" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="c755ee5f-ffc0-4e17-bea6-5218e4b605ef" name="get" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f14dc6ff-94a2-4dbc-9d15-99109c7d77e5" />
+          </operation>
+          <operation Id="e355abd7-9b6e-4bf1-bf22-00d81e898c60" name="put" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1fa720f4-de47-4fc9-86c3-cfa081d779af" />
+          </operation>
+          <operation Id="6d257d44-6f9f-4cbe-bbe5-9fe2508f4a7e" name="Stack" visibility="Package" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="350ee7e6-033f-4618-aa04-ddb0a0ff5e27" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="deb9fb02-af05-4517-8251-856065e34a4a" name="Node" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="833859e9-462c-4498-a60b-0fb199baa083" />
+        <ownedAttributesInternal>
+          <property Id="1b43daa6-b941-4b9b-b8eb-9a5e5fce8147" name="Node* next" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="523d3e67-655f-4781-87fe-8ffa872bf0d0" />
+          </property>
+          <property Id="02bb403f-dbb8-493e-9562-aed545e9acca" name="int a" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="679f80ea-3795-454d-8308-3d2a66524c2a" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="88211515-0f6e-4991-bc30-db7e6852e652" name="2015.7.15C++practice_textbook_11.5_diagram">
+    <elementDefinition Id="8763e03f-3821-466e-8182-0861b339b682" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2015.7.14_UML_Learning_eg_class_time_CPP", "2015.7.14_UML_Learning_eg_class_time_CPP\2015.7.14_UML_Learning_eg_class_time_CPP.vcxproj", "{BFC00B63-BD25-4CEA-B952-D648D7268C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC00B63-BD25-4CEA-B952-D648D7268C58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFC00B63-BD25-4CEA-B952-D648D7268C58}.Debug|Win32.Build.0 = Debug|Win32
+		{BFC00B63-BD25-4CEA-B952-D648D7268C58}.Release|Win32.ActiveCfg = Release|Win32
+		{BFC00B63-BD25-4CEA-B952-D648D7268C58}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

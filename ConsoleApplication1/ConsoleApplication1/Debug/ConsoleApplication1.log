@@ -1,0 +1,40 @@
+﻿生成启动时间为 2015/6/29 21:57:36。
+     1>项目“d:\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp "源.cpp"
+         源.cpp
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(1): warning C4627: “#include <iostream.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(2): warning C4627: “#include <fstream.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(3): warning C4627: “#include <time.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(86): error C2065: “cout”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(95): error C2065: “clock_t”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(95): error C2146: 语法错误: 缺少“;”(在标识符“start”的前面)
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(95): error C2065: “start”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(95): error C2065: “end”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(98): error C2065: “ifstream”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(98): error C2146: 语法错误: 缺少“;”(在标识符“fin”的前面)
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(98): error C2065: “fin”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(100): error C2065: “fin”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(100): error C2228: “.open”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(100): error C2653: “ios”: 不是类或命名空间名称
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(100): error C2065: “binary”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(101): error C2065: “fin”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(101): error C2228: “.get”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(102): error C2065: “fin”: 未声明的标识符
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(102): error C2228: “.eof”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\源.cpp(102): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         ConsoleApplication1.cpp
+         正在生成代码...
+     1>已完成生成项目“d:\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.37

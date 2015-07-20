@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="342eed28-9d85-48f3-9099-9f02299a51ac" name="UMLClassDiagram1" linkedPackageId="b4892f55-b2eb-4a7c-af2b-bf8e1a5f4626" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="4a3a4f71-0d5f-4360-9c57-76307872f23d">
+      <profileInstance Id="0554ef16-860d-4f85-9da7-cb014dd7c89e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d4991626-7735-429e-84a1-1866eeea94ad">
+      <profileInstance Id="152422e1-fb38-4557-b10d-fe46edb8615e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="43759473-daba-48ae-9947-a4106fdad76b" name="Time" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1bcf7ec8-3157-477d-bbff-28c495793c6c" />
+        <ownedAttributesInternal>
+          <property Id="3a868db4-25c2-40ac-8cd5-ace7f00b3ec0" name="sec" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="98ba3fbd-3004-4f43-9e46-e0d026d5a0db" />
+          </property>
+          <property Id="755eb2ac-2802-4cb0-929c-084ffe4c1252" name="min" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1b9a4ff7-7708-47a3-be58-92fc1517f6b5" />
+          </property>
+          <property Id="a45d676c-c2a4-48d3-9f62-7ce118912c35" name="hour" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a8409119-476f-4da2-a948-da1433096e07" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="06c0f860-70b7-41a2-9ac5-21a38c62048c" name="Time" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e3b9d521-828d-43e8-98f8-fbac80527e0b" />
+          </operation>
+          <operation Id="75fb872a-d285-45af-b7da-dbcc3748c1b8" name="Settime" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d86ede88-118f-4fae-afe1-989a5525d7a9" />
+          </operation>
+          <operation Id="b62052e7-2fa5-4717-88d3-8fb0a7488357" name="disp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1ba8a971-72f3-4614-b487-12f7a91e1fb9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b4892f55-b2eb-4a7c-af2b-bf8e1a5f4626" name="2015.7.14_UML_Learning_eg_class_time">
+    <elementDefinition Id="71052069-1f91-4173-b511-17329d43fbf1" />
+  </package>
+</logicalClassDesignerModel>
